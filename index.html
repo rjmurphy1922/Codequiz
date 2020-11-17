@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Coding Quiz</h1>
+    <button type = "button" id = "startbutton" onclick="generator()"> Start </button>
+    <!-- <button type = "button" id = "nextbutton" onclick= "nextItem()"> Next </button> -->
+
+<div class = qaspace>
+
+    <div id = "questionspace"></div>
+    <div id = "answerspace">
+        <ul>
+            <button id = "button1">Button</button>
+            <br>
+            <button id = "button2"> Button</button>
+            <br>
+            <button id = "button3">Button</button> 
+            <br>
+            <button id = "button4">Button</button> 
+            
+        </ul>
+
+    </div>
+
+</div>
+
+    <script>
+
+        var questions = ["This is question number one?","This is questions number two?","This is questions number three?"]
+
+        var answersOne = ["Incorrect", "Incorrect", "Correct", "Incorrect"]
+        var answersTwo = ["Incorrect", "Incorrect", "Correct", "Incorrect"]
+        var answersTwo = ["Incorrect", "Correct", "Incorrect", "Incorrect"]
+        var answersThree = ["Correct", "Incorrect", "Incorrect", "Incorrect"]
+        var answersFour = ["Incorrect", "Correct", "Incorrect", "Incorrect"]
+        var answersFive = ["Incorrect", "Incorrect", "Incorrect", "Correct"]
+        var answersSix = ["Correct", "Incorrect", "Incorrect", "Incorrect"]
+        var answersSeven = ["Correct", "Incorrect", "Incorrect", "Incorrect"]
+        var answersEight = ["Incorrect", "Incorrect", "Incorrect", "Correct"]
+        var answersNine = ["Incorrect", "Incorrect", "Correct", "Incorrect"]
+        var answersTen  = ["Incorrect", "Correct", "Incorrect", "Incorrect"]
+
+        var questionOne = {
+
+            question: "This is question number one",
+            answerOne: "Incorrect",
+            answerTwo:
+        }
+
+        
+
+
+
+
+//pass variable into question space from arrary on each next click
+
+
+
+        function generator() {
+            document.getElementById("questionspace")
+            document.getElementById("answerspace");
+            var questioncontent =  document.getElementById("questionspace").innerHTML= questions[0]
+            var answercontent = document.getElementById("button1").innerHTML= answersOne[0];
+            var answercontent = document.getElementById("button2").innerHTML=answersOne[1];
+            var answercontent = document.getElementById("button3").innerHTML=answersOne[2];
+            var answercontent = document.getElementById("button4").innerHTML=answersOne[3]
+  
+        
+             }
+
+ 
+     
+        
+
+             
+       
+
+
+
+    </script>
+    
+</body>
+</html>

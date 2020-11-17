@@ -1,0 +1,45 @@
+.qaspace{
+    display:flex
+}
+
+#questionspace{
+    height:400px;
+    width:50%;
+    flex-direction: row;
+    border: 2px solid black
+}
+
+#answerspace{
+    height:400px;
+    width:50%;
+    flex-direction: row;
+    border: 2px solid black
+}
+
+ul button{
+
+    margin: 10px;
+}
+/* 
+// function nextWord() {
+    //     var questions = ["q1","q2","q3","q4","q5","q6","q7","q8","q9","q10",];
+    //   var count = -1;
+    //   return function() {
+    //     return questions[++count % questions.length];
+    //   }
+    // };
+    
+    
+            // var q1 = "Here is the first question"
+            // var q2 = "Here is the second question"
+            // var q3 = "Here is the third question"
+            // var q4 = "Here is the fourth question"
+            // var q5 = "Here is the fifth question"
+            // var q6 = "Here is the sixth question"
+            // var q7 = "Here is the seventh question"
+            // var q8 = "Here is the eighth question"
+            // var q9 = "Here is the ninth question"
+            // var q10 = "Here is the tenth question"
+    
+            // var answers = ["a1","a2","a3","a4","a5","a6","a7","a8","a9","a10",]
+            // var questions = ["q1","q2","q3","q4","q5","q6","q7","q8","q9","q10",]; */
