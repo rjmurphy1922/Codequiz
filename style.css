@@ -6,20 +6,41 @@
     height:400px;
     width:50%;
     flex-direction: row;
-    border: 2px solid black
+
 }
 
 #answerspace{
     height:400px;
     width:50%;
     flex-direction: row;
-    border: 2px solid black
+   
 }
 
 ul button{
 
     margin: 10px;
 }
+
+#timer{
+ 
+    height:50px;
+    width:200px;
+    border: 2px solid black;
+    margin: auto;
+
+}
+
+.hide{
+    display: none;
+}
+
+
+#userresult{
+    margin:auto
+
+    
+}
+
 /* 
 // function nextWord() {
     //     var questions = ["q1","q2","q3","q4","q5","q6","q7","q8","q9","q10",];
